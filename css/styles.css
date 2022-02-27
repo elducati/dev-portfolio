@@ -463,7 +463,7 @@ footer {
   position: relative;
   max-width: 900px;
   margin: 0 auto 30px auto;
-  overflow: hidden;
+  overflow: auto;
   background: #fff;
   border-radius: 4px;
   padding: 1rem;
@@ -524,7 +524,7 @@ footer {
 }
 #contact {
   padding: 50px 15px;
-  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #03395e);
   text-align: center;
 }
 #contact h2 {
