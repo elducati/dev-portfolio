@@ -80,7 +80,7 @@ header li {
 }
 header a {
   display: block;
-  color: #3498db;
+  color: #fff;
   padding: 10px;
 }
 header a:hover {
@@ -475,14 +475,14 @@ footer {
   padding: 1rem;
 }
 .project-image {
-  float: left;
+  padding: 1 rem;  
 }
 .project-info {
-  position: absolute;
-  top: 50%;
+  position: relative;
+  /* top: 50%;
   transform: translateY(-50%);
-  margin-left: 300px;
-  padding: 15px;
+  margin-left: 300px; */  
+  text-align: center;
 }
 .project-info h3 {
   /*font-size: 1.5em;
