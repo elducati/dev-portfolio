@@ -483,6 +483,7 @@ footer {
   transform: translateY(-50%);
   margin-left: 300px; */  
   text-align: center;
+  border: 1px solid #dcd9d9;
 }
 .project-info h3 {
   /*font-size: 1.5em;
