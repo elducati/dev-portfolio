@@ -137,6 +137,15 @@ img {
 #mobile-menu-close i {
   vertical-align: middle;
 }
+#view-more-projects {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#more-projects .project {
+  margin-top: 20px;
+}
 footer {
   padding: 50px 0;
 }
@@ -475,10 +484,11 @@ footer {
   padding: 1rem;
 }
 .project-image {
-  padding: 1 rem;  
+  padding: 25px 15px 20px 15px;;  
 }
 .project-info {
   position: relative;
+  padding: 50px 15px 20px 15px;
   /* top: 50%;
   transform: translateY(-50%);
   margin-left: 300px; */  

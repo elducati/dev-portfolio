@@ -93,5 +93,12 @@
             $('#more-projects').fadeIn(300);
         });
     });
+    $(document).ready(function() {
+        $('#view-more-projects').click(function(e) {
+          e.preventDefault();
+          $('#more-projects').slideDown();
+          $(this).hide();
+        });
+      });
 
 })(jQuery);
